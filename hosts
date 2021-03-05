@@ -1,0 +1,15 @@
+[windows]
+ad1.9b65.internal
+
+[windows:vars]
+ansible_connection=winrm
+ansible_user=Administrator
+ansible_password='password'
+ansible_winrm_server_cert_validation=ignore
+
+[supports]
+support1.9b65.internal
+
+[all:vars]
+timeout=60
+ansible_user=ec2-user
